@@ -62,12 +62,12 @@
 }
 .card{
     border: none;
-    box-shadow: 5px 5px 80px rgb(255, 208, 0);
+    box-shadow: 5px 5px 80px blue;
 }
 .card-img-top{
-    background-color: rgb(255, 153, 0, 0.24);
+    background-color: rgba(255, 201, 119, 0.295);
 }
 .card-body{
-    background-color: rgba(255, 153, 0, 0.24);
+    background-color: rgba(255, 201, 119, 0.295);
 }
 
