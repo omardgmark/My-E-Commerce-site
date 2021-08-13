@@ -20,6 +20,7 @@
     padding: 9px 25px;
     cursor: pointer;
 }
+
 .dscrb{
     color: white;
 }
@@ -44,4 +45,24 @@
 .categories img{
     width: 150px;
 }
+.card-button{
+    background-image: linear-gradient(to bottom, rgb(255, 255, 16) 0%, rgb(255, 174, 0) 100%);
+    color: blue;
+    border: none;
+    border-radius: 10px;
+    padding: 9px 25px;
+    cursor: pointer;    
+}
+.card-footer h5{
+    color:blue
+}
+.card-footer{
+    border: none;
+    background-image: linear-gradient(to bottom, rgb(212, 179, 250) 0%, rgb(128, 16, 255) 100%);
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 80px rgb(255, 208, 0);
+}
+
 
