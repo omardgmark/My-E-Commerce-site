@@ -1,4 +1,7 @@
 
+.container{
+    margin-bottom: 100px;
+}
 .purple-bg{
     background-image: linear-gradient(to right, rgba(123, 3, 160, 0.979) , rgba(202, 135, 241, 0.712));
     border-radius: 10px;
@@ -10,10 +13,13 @@
     color:rgb(255, 196, 0)
 }
 .buy-now-button{
-    background-image: linear-gradient(to bottom, rgb(253, 253, 46) 0%, rgb(255, 174, 0) 100%);
-    color: purple;
+    background-image: linear-gradient(to bottom, rgb(255, 255, 16) 0%, rgb(255, 174, 0) 100%);
+    color: rgb(219, 0, 248);
     border: none;
     border-radius: 20px;
     padding: 9px 25px;
     cursor: pointer;
+}
+.dscrb{
+    color: wheat;
 }
