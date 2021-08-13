@@ -3,7 +3,7 @@
     margin-bottom: 100px;
 }
 .purple-bg{
-    background-image: linear-gradient(to right, rgba(123, 3, 160, 0.979) , rgba(202, 135, 241, 0.712));
+    background-image: linear-gradient(to right, purple, rgba(202, 135, 241, 0.71));
     border-radius: 10px;
 }
 .carousel-item{
@@ -14,12 +14,34 @@
 }
 .buy-now-button{
     background-image: linear-gradient(to bottom, rgb(255, 255, 16) 0%, rgb(255, 174, 0) 100%);
-    color: rgb(219, 0, 248);
+    color: blue;
     border: none;
     border-radius: 20px;
     padding: 9px 25px;
     cursor: pointer;
 }
 .dscrb{
-    color: wheat;
+    color: white;
 }
+.cat1, .cat2, .cat3{
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.cat1{
+    background-color: rgba(148, 4, 192, 0.877);  
+}
+.cat2{
+    background-color: rgb(255, 175, 0);  
+}
+
+.cat3{
+    background-color: rgb(39, 39, 252);
+    
+}
+.categories h1{
+    color: white;
+}
+.categories img{
+    width: 150px;
+}
+
