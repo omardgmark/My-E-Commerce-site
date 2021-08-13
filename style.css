@@ -1,4 +1,19 @@
 
 .purple-bg{
-    background-image: linear-gradient(to right, rgba(123, 3, 160, 0.699) , rgba(255, 255, 255, 0.705));
+    background-image: linear-gradient(to right, rgba(123, 3, 160, 0.979) , rgba(202, 135, 241, 0.712));
+    border-radius: 10px;
+}
+.carousel-item{
+    padding: 20px 40px;
+}
+.price{
+    color:rgb(255, 196, 0)
+}
+.buy-now-button{
+    background-image: linear-gradient(to bottom, rgb(253, 253, 46) 0%, rgb(255, 174, 0) 100%);
+    color: purple;
+    border: none;
+    border-radius: 20px;
+    padding: 9px 25px;
+    cursor: pointer;
 }
