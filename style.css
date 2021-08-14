@@ -5,6 +5,7 @@
 .purple-bg{
     background-image: linear-gradient(to right, purple, rgba(202, 135, 241, 0.71));
     border-radius: 10px;
+    box-shadow: 5px 5px 60px rgba(0, 0, 255, 0.486);
 }
 .carousel-item{
     padding: 20px 40px;
@@ -13,7 +14,7 @@
     color:rgb(255, 196, 0)
 }
 .buy-now-button{
-    background-image: linear-gradient(to bottom, rgb(255, 255, 16) 0%, rgb(255, 174, 0) 100%);
+    background-image: linear-gradient(to bottom, rgb(255, 255, 16) 0%, rgb(255, 123, 0) 100%);
     color: blue;
     border: none;
     border-radius: 20px;
@@ -24,30 +25,36 @@
 .dscrb{
     color: white;
 }
-.cat1, .cat2, .cat3{
+
+.cat1{
     padding: 10px 30px;
     border-radius: 10px;
-}
-.cat1{
-    background-color: rgba(148, 4, 192, 0.877);  
+    background-image: linear-gradient(to right, purple 0%, rgb(212, 179, 250) 100%);
+    box-shadow: 5px 5px 60px rgba(0, 0, 255, 0.486);
 }
 .cat2{
-    background-color: rgb(255, 175, 0);  
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, purple 0%, rgb(212, 179, 250) 100%);
+    box-shadow: 5px 5px 60px rgba(0, 0, 255, 0.486);
 }
 
 .cat3{
-    background-color: rgb(39, 39, 252);
-    
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, purple 0%, rgb(212, 179, 250) 100%); 
+    box-shadow: 5px 5px 60px rgba(0, 0, 255, 0.486);   
 }
 
+
 .categories h1{
-    color: white;
+    color: rgb(255, 217, 0);
 }
 .categories img{
     width: 150px;
 }
 .card-button{
-    background-image: linear-gradient(to bottom, rgb(255, 255, 16) 0%, rgb(255, 174, 0) 100%);
+    background-image: linear-gradient(to bottom, rgb(255, 255, 16) 0%, rgb(255, 123, 0) 100%);
     color: blue;
     border: none;
     border-radius: 10px;
@@ -55,15 +62,15 @@
     cursor: pointer;    
 }
 .card-footer h5{
-    color:blue
+    color:yellow;
 }
 .card-footer{
     border: none;
-    background-image: linear-gradient(to bottom, rgb(212, 179, 250) 0%, rgb(128, 16, 255) 100%);
+    background-image: linear-gradient(to left, rgb(212, 179, 250) 0%, purple 100%);
 }
 .card{
     border: none;
-    box-shadow: 5px 5px 80px blue;
+    box-shadow: 5px 5px 60px rgba(0, 0, 255, 0.486);
 }
 .card-img-top{
     background-color: rgba(255, 201, 119, 0.295);
@@ -72,6 +79,23 @@
     background-color: rgba(255, 201, 119, 0.295);
 }
 h2{
+    color: blue;
+}
+h3{
+    color:blue;
+}
+h6{
+    color: blue;
+}
+#subscribe{
+    height: 300px;
+    box-shadow: 5px 5px 60px rgba(0, 0, 255, 0.486);
+    border-radius: 8px;
+}
+footer{
+    text-align: center;
+}
+footer p{
     color: blue;
 }
 
